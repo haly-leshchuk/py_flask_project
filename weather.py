@@ -3,6 +3,7 @@ from pprint import pprint
 import requests
 import os
 
+# Load sensitive info (e.g. API keys) from .env file
 load_dotenv()
 
 def get_current_weather(city="Edinburgh"):
